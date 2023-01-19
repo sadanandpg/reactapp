@@ -7,8 +7,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         
-          deployment is happening --1000
-        
+        <a
+          className="App-link"
+          href="sadanand.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-testid="learn-link"
+        >
+          learing test and dev
+        </a>
       </header>
     </div>
   );
